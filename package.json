@@ -1,6 +1,11 @@
 {
-  "name": "blue-horizon",
-  "dependencies": [
-
-  ]
+    "name": "blue-horizon",
+    "version": "0.1.0",
+    "dependencies": {
+        "nmea-0183": "0.0.5",
+        "express": "",
+        "express-namespace": "",
+        "dust": "",
+        "serial": ""
+    }
 }

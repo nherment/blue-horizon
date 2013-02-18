@@ -1,0 +1,12 @@
+
+<h4>Wifi</h4>
+
+{#wifiSignals}
+    <div class="wifi-signal">
+        <div class="wifi-name">{name}</div>
+        {?secure}
+            <i class="icon-lock"></i>
+        {/secure}
+        <div class="progress pull-right"><div class="bar" style="width: {signal}%;"></div></div>
+   </div>
+{/wifiSignals}

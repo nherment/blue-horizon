@@ -1,0 +1,24 @@
+{
+    "name": "I2C1",
+    "description": "The I2C1 bus",
+    "P9": {
+        "17": {
+            "name": "I2C1_SCL",
+            "config": {
+                "input": false,
+                "pullUp": true,
+                "pullEnabled": true,
+                "mode": 2
+            }
+        },
+        "18": {
+            "name": "I2C1_SDA",
+            "config": {
+                "input": true,
+                "pullUp": true,
+                "pullEnabled": true,
+                "mode": 2
+            }
+        }
+    }
+}

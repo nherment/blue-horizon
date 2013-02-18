@@ -1,0 +1,24 @@
+.progress {
+    height: 7px;
+    width: 50px;
+
+    margin-top: 8px;
+    margin-bottom: auto;
+}
+
+.wifi-name {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+}
+
+.wifi-signal {
+    height: 25px;
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+
+    background-color: #F3F3F3;
+}
+.wifi-signal:hover {
+    background-color: #F3F3FF;
+}

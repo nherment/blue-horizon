@@ -1,0 +1,23 @@
+{
+    "name": "uart2",
+    "P9": {
+        "21": {
+            "name": "uart2_tx",
+            "config": {
+                "input": false,
+                "pullUp": false,
+                "pullEnabled": false,
+                "mode": 1
+            }
+        },
+        "22": {
+            "name": "uart2_rx",
+            "config": {
+                "input": true,
+                "pullUp": false,
+                "pullEnabled": false,
+                "mode": 1
+            }
+        }
+    }
+}

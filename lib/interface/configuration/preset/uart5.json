@@ -1,0 +1,23 @@
+{
+    "name": "uart5",
+    "P8": {
+        "38": {
+            "name": "uart5_rx",
+            "config": {
+                "input": true,
+                "pullUp": false,
+                "pullEnabled": false,
+                "mode": 4
+            }
+        },
+        "37": {
+            "name": "uart5_tx",
+            "config": {
+                "input": false,
+                "pullUp": false,
+                "pullEnabled": false,
+                "mode": 4
+            }
+        }
+    }
+}
